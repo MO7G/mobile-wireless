@@ -1,0 +1,64 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Fill viewport height */
+  background-color: #f5f5f5; /* Light gray background */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.button-container-welcome {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.button-container-welcome  button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.login-btn {
+  background-color: #3498db; /* Blue button */
+  color: #fff; /* White text */
+}
+
+.login-btn:hover {
+  background-color: #b929a3; /* Darker blue on hover */
+}
+
+.simulator-btn {
+  background-color: #2ecc71; /* Green button */
+  color: #fff; /* White text */
+}
+
+.simulator-btn:hover {
+  background-color: #ae6827; /* Darker green on hover */
+}
+
+.dashboard-btn {
+  background-color: #9b59b6; /* Purple button */
+  color: #fff; /* White text */
+}
+
+.dashboard-btn:hover {
+  background-color: #4457ad; /* Darker purple on hover */
+}
+

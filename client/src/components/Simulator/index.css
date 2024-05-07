@@ -1,0 +1,10 @@
+/* SimulatorPage.css */
+
+.Simulator-page {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  min-height: 100vh; /* Ensure content fills viewport height */
+  background-color: #f5f5f5; /* Optional background color */
+  align-items: center;
+}
+

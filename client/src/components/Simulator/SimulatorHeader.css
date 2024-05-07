@@ -1,0 +1,45 @@
+/* SimulatorHeader.css */
+
+.simulator-header-container {
+  position: relative; /* Ensure position is relative */
+  width: 100%; /* Set width to 100% */
+  background-color: #f0f0f0; /* Add background color as needed */
+  padding: 10px; /* Add padding as needed */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 100px; /* Add margin to bottom of SimulatorHeader */
+
+}
+
+.simulator-header {
+  position: relative; /* Ensure position is relative */
+  width: 100%; /* Set width to 100% */
+  background-color: #f0f0f0; /* Add background color as needed */
+  padding: 10px; /* Add padding as needed */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Align items vertically */
+}
+
+.hi-message {
+  margin: 0; /* Remove default margin */
+  font-size: 18px; /* Adjust font size */
+  font-weight: bold; /* Make text bold */
+  text-align: left; /* Align text to the left */
+}
+.simulator-header-right {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row; /* Stack elements vertically */
+  background-color: #f5f5f5; /* Optional background color */
+  align-items: center;
+}
+
+.simulator-header img {
+  width: 20px; /* Adjust the width of the image */
+  margin-right: 10px;
+}
+
+
+
+

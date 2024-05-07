@@ -1,0 +1,102 @@
+{
+  "space_1": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 1,
+      "y": 1
+    },
+    "status": true,
+    "vehicle_plate": ""
+  },
+  "space_2": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 1,
+      "y": 2
+    },
+    "status": false,
+    "vehicle_plate": ""
+  },
+  "space_3": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 1,
+      "y": 3
+    },
+    "status": false,
+    "vehicle_plate": ""
+  },
+  "space_4": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 1,
+      "y": 4
+    },
+    "status": false,
+    "vehicle_plate": ""
+  },
+  "space_5": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 1,
+      "y": 5
+    },
+    "status": false,
+    "vehicle_plate": ""
+  },
+  "space_6": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 2,
+      "y": 1
+    },
+    "status": false,
+    "vehicle_plate": ""
+  },
+  "space_7": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 2,
+      "y": 2
+    },
+    "status": false,
+    "vehicle_plate": ""
+  },
+  "space_8": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 2,
+      "y": 3
+    },
+    "status": false,
+    "vehicle_plate": ""
+  },
+  "space_9": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 2,
+      "y": 4
+    },
+    "status": false,
+    "vehicle_plate": ""
+  },
+  "space_10": {
+    "entry_time": "",
+    "exit_time": "",
+    "position": {
+      "x": 2,
+      "y": 4
+    },
+    "status": false,
+    "vehicle_plate": ""
+  }
+}

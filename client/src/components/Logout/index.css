@@ -1,0 +1,23 @@
+/* index.css */
+.logout-image {
+    cursor: pointer;
+    transition: filter 0.3s ease; /* Smooth transition effect */
+}
+
+.logout-image:hover {
+    filter: brightness(80%); /* Adjust brightness to 80% on hover */
+    animation: jump 0.3s ease infinite alternate; /* Apply jumping animation */
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px); /* Move the image up by 5 pixels */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+

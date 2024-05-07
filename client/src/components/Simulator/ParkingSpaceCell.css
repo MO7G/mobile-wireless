@@ -1,0 +1,73 @@
+/* Style for the parking space cell */
+.parking-space {
+  position: relative; /* Position the space number relative to the cell */
+  width: 150px; /* Adjust the width of each parking space */
+  height: 250px; /* Adjust the height of each parking space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 14px; /* Adjust font size */
+  font-weight: bold; /* Make text bold */
+  color: #333; /* Set text color */
+  overflow: hidden; /* Hide overflow content */
+  position: relative; /* Position the parking space cell */
+  transition: background-color 0.5s ease-in-out; /* Transition for background color on hover */
+}
+
+/* Style for occupied parking spaces */
+.occupied {
+  background-color: #ff5252; /* Red background color */
+}
+
+/* Style for available parking spaces */
+.available {
+  background-color: #69f0ae; /* Green background color */
+}
+
+/* Style for vehicle plate */
+.vehicle-plate {
+  margin-top: 2px; /* Add margin to separate vehicle plate from cell border */
+}
+
+/* Style for the number */
+.space-number {
+  position: absolute; /* Position the number */
+  font-size: 24px; /* Adjust font size */
+  color: #fff; /* Set text color */
+  z-index: 1; /* Ensure the number appears above the image */
+}
+
+/* Style for the image */
+.parking-space img {
+  max-width: 50%; /* Ensure the image does not exceed the cell size */
+  max-height: 30%; /* Ensure the image does not exceed the cell size */
+  position: absolute; /* Position the image */
+  top: 0; /* Align the image to the top */
+  left: 0; /* Align the image to the left */
+  right: 0; /* Align the image to the right */
+  bottom: 0; /* Align the image to the bottom */
+  margin: auto; /* Center the image horizontally and vertically */
+}
+
+/* Hover effect */
+.parking-space:hover {
+  background-color: #ddd; /* Optional hover background color */
+}
+
+
+.swal2-close {
+  /* Your custom styles for the close button */
+  background-color: red; /* Example background color */
+  color: white; /* Example text color */
+  border: none; /* Remove border */
+  padding: 5px; /* Add padding */
+  border-radius: 50%; /* Make it circular */
+  font-size: 20px; /* Adjust font size */
+  margin: 5px;
+}
+
+.swal2-close:hover {
+  /* Your custom hover styles for the close button */
+  background-color: darkred; /* Example hover background color */
+}

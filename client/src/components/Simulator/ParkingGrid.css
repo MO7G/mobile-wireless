@@ -1,0 +1,12 @@
+.parking-grid {
+    display: flex;
+    flex-direction: column; /* Display grid rows vertically */
+    gap: 5px; /* Adjust the gap between grid rows */
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+
+  
