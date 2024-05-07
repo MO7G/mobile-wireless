@@ -1,5 +1,7 @@
 import { initializeApp } from 'firebase/app';
-import { getDatabase } from 'firebase/database'; // Import for Realtime Database
+import { getDatabase } from 'firebase/database';
+
+console.log("this is the env ", process.env.REACT_APP_FIREBASE_API_KEY);
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -11,10 +13,17 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_APP_ID
 };
 
-// Initialize Firebase app
-const app = initializeApp(firebaseConfig);
-// Initialize the Realtime Database instance
-const database = getDatabase(app);
-console.log('Firebase Realtime Database initialized successfully');
+let database;
+
+try {
+  // Initialize Firebase app
+  const app = initializeApp(firebaseConfig);
+  // Initialize the Realtime Database instance
+  database = getDatabase(app);
+  console.log('Firebase Realtime Database initialized successfully');
+} catch (error) {
+  console.error('Error initializing Firebase:', error);
+  // You can handle the error here, such as displaying a message to the user or logging it for debugging.
+}
 
 export default database;
